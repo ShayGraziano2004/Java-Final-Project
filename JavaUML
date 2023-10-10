@@ -1,0 +1,11 @@
++------------------------+     +----------------------+
+|      ToDoListApp      |     |         Task         |
++------------------------+     +----------------------+
+| - tasks: List<Task>   |     | - title: String      |
++------------------------+     | - description: String|
+| + addTask(task: Task) |     | - completed: boolean |
+| + markTaskCompleted() |     | + getTitle(): String |
+| + deleteTask(task: Task) |  | + getDescription(): String |
+| + clearCompletedTasks() |   | + isCompleted(): boolean |
+| + getTasks(): List<Task> | | + markAsCompleted() |
++------------------------+     +----------------------+
